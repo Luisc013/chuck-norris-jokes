@@ -1,2 +1,6 @@
 require 'sinatra'
-require './chuck.rb'
+require 'chucknorris'
+
+get '/' do
+  erb :index
+end
